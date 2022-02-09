@@ -1,0 +1,245 @@
+@import"null_style.css";
+@import"fonts.css";
+@import url(https://fonts.googleapis.com/css?family=Exo+2:regular,700,900&display=swap);
+
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+/* ================= Figma ====================== */
+
+body{
+   font-family: "Circular Std" ,sans-serif;
+   font-size: 18px;
+   color:#5F5F5F;
+}
+.figma-header {
+   margin-bottom: 153px;
+}
+.figma-content {
+   width: 1025px;
+   margin: 0 auto;
+}
+.customes-block {
+   margin-bottom: 224px;
+}
+.customes-title {
+   font-size: 65px;
+   color: #313131;
+   text-align: center;
+   line-height: 1.26;
+   margin-bottom: 20px;
+}
+.customes-sub {
+   max-width: 750px;
+   margin: 0 auto;
+   font-size: 20px;
+   text-align: center;
+   line-height: 1.25;
+   font-weight: 300;
+}
+.service-block {
+   margin-bottom: 125px;
+   max-width: 508px;
+}
+.service-title {
+   font-size: 34px;
+   color: #313131;
+   opacity: 0.88;
+   line-height: 1.29;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+.service-comment {
+   line-height: 1.55;
+   font-weight: 300;
+}
+.comment-author {
+   margin-bottom: 100px;
+}
+.author-name {
+   color: #313131;
+   opacity: 0.88;
+   line-height: 1.27;
+   font-weight: 700;
+   margin-bottom: 5px;
+   display: block;
+}
+.manager {
+   color: #B8B8B8;
+   line-height: 1.27;
+   font-weight: 300;
+}
+.image {
+   margin-bottom: 100px;
+}
+.athlete {
+   width: 468px;
+   height: 675px;
+}
+
+/* ================= Найкрасивіші місця України Header ====================== */
+
+[class*="-conteiner"] {
+   width: 1055px;
+   padding: 0 15px 0 15px;
+   margin: 0 auto;
+   font-family: "Exo 2", sans-serif;
+   font-size: 20px;
+   line-height: 1.5;
+   color: #313131;
+}
+.header {
+   margin: 30px 0 80px 0;
+}
+.header-title {
+   margin-bottom: 25px;
+   color: dodgerblue;
+   font-weight: 900;
+   font-size: 30px;
+   outline: 1px solid #313131;
+}
+.header-menu-item {
+   margin-bottom: 10px;
+   padding-left: 30px;
+   font-family: "Pattaya";
+   font-size: 25px;
+}
+.header-menu-link {
+   border-bottom: 1px dashed #B8B8B8;
+   box-shadow: 1px 1px 8px -2px yellow;
+}
+.block {
+   width: 400px;
+   height: 400px;
+   border-radius: 50%;
+   overflow: hidden;
+   margin: 0 auto 10px;
+}
+div + .block {
+   outline: 5px solid black;
+}
+div ~ .block1 {
+   box-shadow: 10px 10px  red;
+}
+
+/* ================= Найкрасивіші місця України Main ====================== */
+
+.content-block {
+   max-width: 800px;
+   margin: 0 auto;
+   box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.3);
+   border: 1px solid #B8B8B8;
+   border-radius: 10px;
+   padding: 30px 40px;
+   margin-bottom: 40px;
+}
+.title {
+   margin-bottom: 30px;
+   font-family: "Pattaya";
+   font-size: 30px;
+}
+.about {
+   margin-bottom: 30px;
+}
+a.link {
+   color: cadetblue;
+}
+.content-img {
+   display: block;
+   width: 700px;
+   margin: 0 auto;
+   border-radius: 20px;
+   margin-bottom: 30px;
+}
+.advice {
+   width: 250px;
+   height: 200px;
+   overflow: scroll;
+   margin: 0 auto 30px;
+   box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.3);
+   outline: 2px solid green;
+}
+.advice-title {
+   font-size: 30px;
+   margin-bottom: 20px;
+}
+span.bold {
+   font-weight: 700;
+   color: #000000;
+}
+.to-do {
+   margin-bottom: 20px;
+   font-size: 30px;
+   font-weight: 700;
+   text-shadow: 9px 2px 2px #CE5937;
+}
+.content-list {
+   margin-bottom: 50px;
+}
+.content-item {
+   padding-left: 30px;
+   margin-bottom: 5px;
+   text-decoration: line-through;
+}
+.page-top {
+   display: block;
+   margin: 0 auto;
+   width: 130px;
+   text-align: center;
+   border: 2px dotted red;
+   border-radius: 10px;
+   padding: 5px 10px;
+   box-shadow: inset 0px 0px 15px 5px #000000,
+   0px 0px 15px 5px #FF0D0D;
+}
+.over {
+   width: 500px;
+   height: 200px;
+   border-radius: 50px;
+   border: 3px double green;
+   margin: 0 auto;
+   overflow: auto;
+}
+p.dot {
+   outline: 5px dotted red;
+   border-radius: 0 20px 0 20px;
+}
+p.dash {
+   width: 400px;
+   height: 491px;
+   margin: 0 auto;
+   border-radius: 48% 52% 46% 54% / 45% 46% 54% 55% ;
+   border: 2px dashed violet;
+   overflow: hidden;
+}
+p.under {
+   border-bottom: 5px solid pink;
+   border-left: 5px solid greenyellow;
+   border-right: 5px dotted brown;
+}
+span {
+   color: chocolate;
+   font-family: "Pattaya";
+   font-size: 30px;
+}
+/* ================= Найкрасивіші місця України Footer ====================== */
+.footer-title {
+   font-family: "Pattaya";
+   font-size: 30px;
+   margin-bottom: 30px;
+   border: 3px solid red;
+   max-width: 250px;
+   padding: 5px;
+}
+.footer-menu-list {
+   font-size: 20px;
+   padding-left: 30px;
+   margin-bottom: 5px;
+   text-decoration: underline;
+   color: slateblue;
+}
+.footer-conteiner {
+   margin-bottom: 20px;
+}
